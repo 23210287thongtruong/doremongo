@@ -1,0 +1,502 @@
+[
+ {
+   "HoTen": "Đỗ Thanh Nam",
+   "NgaySinh": "1985-08-10",
+   "PhongBan": "PB1",
+   "ChucVu": "Giám đốc",
+   "NgayVaoLam": "2019-10-1",
+   "DiaChi": "Số 815 đường 18, quận Tân Phú",
+   "SoDienThoai": "+84 830 954 331",
+   "Email": "nam.do283@gmail.com"
+ },
+ {
+   "HoTen": "Vũ Thanh Cường",
+   "NgaySinh": "1994-01-03",
+   "PhongBan": "PB6",
+   "ChucVu": "Bảo vệ",
+   "NgayVaoLam": "2019-11-1",
+   "DiaChi": "Số 258 đường 26, quận 2",
+   "SoDienThoai": "+84 621 100 847",
+   "Email": "cuong.vu421@gmail.com"
+ },
+ {
+   "HoTen": "Hoàng Anh Trang",
+   "NgaySinh": "1997-08-27",
+   "PhongBan": "PB1",
+   "ChucVu": "Phó giám đốc",
+   "NgayVaoLam": "2019-11-1",
+   "DiaChi": "Số 639 đường 8, quận 2",
+   "SoDienThoai": "+84 214 401 997",
+   "Email": "trang.hoang277@gmail.com"
+ },
+ {
+   "HoTen": "Hoàng Hữu Nam",
+   "NgaySinh": "1997-05-22",
+   "PhongBan": "PB3",
+   "ChucVu": "Trưởng phòng kế toán",
+   "NgayVaoLam": "2019-11-1",
+   "DiaChi": "Số 949 đường 42, quận 2",
+   "SoDienThoai": "+84 654 973 614",
+   "Email": "nam.hoang848@gmail.com"
+ },
+ {
+   "HoTen": "Vũ Hải Cường",
+   "NgaySinh": "1999-03-19",
+   "PhongBan": "PB5",
+   "ChucVu": "Trưởng phòng nhân sự",
+   "NgayVaoLam": "2019-11-1",
+   "DiaChi": "Số 70 đường 2, quận 2",
+   "SoDienThoai": "+84 758 968 448",
+   "Email": "cuong.vu451@gmail.com"
+ },
+ {
+   "HoTen": "Đỗ Thị Hùng",
+   "NgaySinh": "1997-03-01",
+   "PhongBan": "PB7",
+   "ChucVu": "Trưởng phòng quản lý Kho",
+   "NgayVaoLam": "2019-11-1",
+   "DiaChi": "Số 855 đường 35, quận 2",
+   "SoDienThoai": "+84 936 794 749",
+   "Email": "hung.do504@gmail.com"
+ },
+ {
+   "HoTen": "Đặng Anh Tuấn",
+   "NgaySinh": "2000-01-09",
+   "PhongBan": "PB4",
+   "ChucVu": "Trưởng phòng kỹ thuật",
+   "NgayVaoLam": "2019-11-15",
+   "DiaChi": "Số 61 đường 41, quận 7",
+   "SoDienThoai": "+84 889 483 222",
+   "Email": "tuan.dang704@gmail.com"
+ },
+ {
+   "HoTen": "Nguyễn Hữu Trang",
+   "NgaySinh": "1986-10-09",
+   "PhongBan": "PB2",
+   "ChucVu": "Cửa hàng trưởng",
+   "NgayVaoLam": "2020-01-1",
+   "DiaChi": "Số 67 đường 2, quận 1",
+   "SoDienThoai": "+84 234 651 323",
+   "Email": "trang.nguyen250@gmail.com"
+ },
+ {
+   "HoTen": "Đặng Hải Trang",
+   "NgaySinh": "1991-10-30",
+   "PhongBan": "PB2",
+   "ChucVu": "Cửa hàng trưởng",
+   "NgayVaoLam": "2020-01-1",
+   "DiaChi": "Số 973 đường 29, quận Tân Phú",
+   "SoDienThoai": "+84 551 609 917",
+   "Email": "trang.dang246@gmail.com"
+ },
+ {
+   "HoTen": "Phạm Minh Bình",
+   "NgaySinh": "1998-08-26",
+   "PhongBan": "PB2",
+   "ChucVu": "Nhân viên bán hàng",
+   "NgayVaoLam": "2020-01-1",
+   "DiaChi": "Số 694 đường 1, quận 3",
+   "SoDienThoai": "+84 771 627 977",
+   "Email": "binh.pham544@gmail.com"
+ },
+ {
+   "HoTen": "Nguyễn Minh Bình",
+   "NgaySinh": "1996-04-23",
+   "PhongBan": "PB2",
+   "ChucVu": "Nhân viên bán hàng",
+   "NgayVaoLam": "2020-01-1",
+   "DiaChi": "Số 126 đường 19, quận 2",
+   "SoDienThoai": "+84 525 205 125",
+   "Email": "binh.nguyen866@gmail.com"
+ },
+ {
+   "HoTen": "Phạm Hữu Tuấn",
+   "NgaySinh": "1998-08-2",
+   "PhongBan": "PB2",
+   "ChucVu": "Nhân viên bán hàng",
+   "NgayVaoLam": "2020-01-1",
+   "DiaChi": "Số 789 đường 50, quận Tân Phú",
+   "SoDienThoai": "+84 861 107 338",
+   "Email": "tuan.pham183@gmail.com"
+ },
+ {
+   "HoTen": "Phan Thị Hoa",
+   "NgaySinh": "1996-11-7",
+   "PhongBan": "PB2",
+   "ChucVu": "Nhân viên bán hàng",
+   "NgayVaoLam": "2020-01-1",
+   "DiaChi": "Số 918 đường 33, quận Tân Phú",
+   "SoDienThoai": "+84 290 429 718",
+   "Email": "hoa.phan404@gmail.com"
+ },
+ {
+   "HoTen": "Trần Anh Lan",
+   "NgaySinh": "1999-09-27",
+   "PhongBan": "PB3",
+   "ChucVu": "Nhân viên kế toán",
+   "NgayVaoLam": "2020-01-1",
+   "DiaChi": "Số 161 đường 34, quận Bình Thạnh",
+   "SoDienThoai": "+84 925 198 922",
+   "Email": "lan.tran772@gmail.com"
+ },
+ {
+   "HoTen": "Trần Xuân Nam",
+   "NgaySinh": "1998-07-11",
+   "PhongBan": "PB4",
+   "ChucVu": "Nhân viên kỹ thuật",
+   "NgayVaoLam": "2020-01-1",
+   "DiaChi": "Số 969 đường 49, quận Bình Thạnh",
+   "SoDienThoai": "+84 949 381 358",
+   "Email": "nam.tran406@gmail.com"
+ },
+ {
+   "HoTen": "Phạm Hữu Nam",
+   "NgaySinh": "1991-03-05",
+   "PhongBan": "PB7",
+   "ChucVu": "Trưởng phòng quản lý Kho",
+   "NgayVaoLam": "2020-01-1",
+   "DiaChi": "Số 458 đường 4, quận Bình Thạnh",
+   "SoDienThoai": "+84 126 564 895",
+   "Email": "nam.pham516@gmail.com"
+ },
+ {
+   "HoTen": "Nguyễn Hữu Cường",
+   "NgaySinh": "1984-06-07",
+   "PhongBan": "PB6",
+   "ChucVu": "Trưởng phòng bảo vệ",
+   "NgayVaoLam": "2020-01-1",
+   "DiaChi": "Số 625 đường 49, quận 2",
+   "SoDienThoai": "+84 458 874 583",
+   "Email": "cuong.nguyen503@gmail.com"
+ },
+ {
+   "HoTen": "Vũ Thị Nam",
+   "NgaySinh": "1994-09-28",
+   "PhongBan": "PB7",
+   "ChucVu": "Quản lý Kho",
+   "NgayVaoLam": "2020-01-1",
+   "DiaChi": "Số 408 đường 40, quận 2",
+   "SoDienThoai": "+84 515 685 681",
+   "Email": "nam.vu915@gmail.com"
+ },
+ {
+   "HoTen": "Nguyễn Kim Nam",
+   "NgaySinh": "1998-06-11",
+   "PhongBan": "PB2",
+   "ChucVu": "Cửa hàng trưởng",
+   "NgayVaoLam": "2020-01-15",
+   "DiaChi": "Số 747 đường 16, quận 1",
+   "SoDienThoai": "+84 218 554 913",
+   "Email": "nam.nguyen846@gmail.com"
+ },
+ {
+   "HoTen": "Phạm Hữu Hùng",
+   "NgaySinh": "1997-02-2",
+   "PhongBan": "PB2",
+   "ChucVu": "Nhân viên bán hàng",
+   "NgayVaoLam": "2020-01-15",
+   "DiaChi": "Số 768 đường 17, quận 2",
+   "SoDienThoai": "+84 417 956 736",
+   "Email": "hung.pham517@gmail.com"
+ },
+ {
+   "HoTen": "Vũ Huy Linh",
+   "NgaySinh": "1989-11-17",
+   "PhongBan": "PB6",
+   "ChucVu": "Quản lý Kho",
+   "NgayVaoLam": "2020-01-15",
+   "DiaChi": "Số 786 đường 22, quận 7",
+   "SoDienThoai": "+84 230 966 560",
+   "Email": "linh.vu332@gmail.com"
+ },
+ {
+   "HoTen": "Lê Anh Trang",
+   "NgaySinh": "1998-02-12",
+   "PhongBan": "PB5",
+   "ChucVu": "Chuyên viên nhân sự",
+   "NgayVaoLam": "2020-02-1",
+   "DiaChi": "Số 88 đường 23, quận Tân Phú",
+   "SoDienThoai": "+84 231 933 556",
+   "Email": "trang.le23@gmail.com"
+ },
+ {
+   "HoTen": "Lê Thị Hùng",
+   "NgaySinh": "1997-05-3",
+   "PhongBan": "PB2",
+   "ChucVu": "Nhân viên bán hàng",
+   "NgayVaoLam": "2020-06-1",
+   "DiaChi": "Số 296 đường 32, quận Bình Thạnh",
+   "SoDienThoai": "+84 883 195 822",
+   "Email": "hung.le423@gmail.com"
+ },
+ {
+   "HoTen": "Phan Văn Nam",
+   "NgaySinh": "1999-12-6",
+   "PhongBan": "PB2",
+   "ChucVu": "Nhân viên bán hàng",
+   "NgayVaoLam": "2020-06-1",
+   "DiaChi": "Số 158 đường 45, quận 7",
+   "SoDienThoai": "+84 741 105 369",
+   "Email": "nam.phan363@gmail.com"
+ },
+ {
+   "HoTen": "Vũ Minh Hưởng",
+   "NgaySinh": "1995-12-7",
+   "PhongBan": "PB2",
+   "ChucVu": "Nhân viên bán hàng",
+   "NgayVaoLam": "2020-06-1",
+   "DiaChi": "Số 390 đường 39, quận 3",
+   "SoDienThoai": "+84 655 852 524",
+   "Email": "huong.vu715@gmail.com"
+ },
+ {
+   "HoTen": "Bùi Hải Nam",
+   "NgaySinh": "1996-04-29",
+   "PhongBan": "PB2",
+   "ChucVu": "Nhân viên bán hàng",
+   "NgayVaoLam": "2020-06-1",
+   "DiaChi": "Số 689 đường 37, quận 1",
+   "SoDienThoai": "+84 689 460 907",
+   "Email": "nam.bui754@gmail.com"
+ },
+ {
+   "HoTen": "Đặng Xuân Hùng",
+   "NgaySinh": "2000-01-31",
+   "PhongBan": "PB7",
+   "ChucVu": "Bảo vệ",
+   "NgayVaoLam": "2020-06-1",
+   "DiaChi": "Số 936 đường 20, quận 1",
+   "SoDienThoai": "+84 208 295 840",
+   "Email": "hung.dang805@gmail.com"
+ },
+ {
+   "HoTen": "Nguyễn Văn Bình",
+   "NgaySinh": "1987-04-12",
+   "PhongBan": "PB6",
+   "ChucVu": "Bảo vệ",
+   "NgayVaoLam": "2021-02-1",
+   "DiaChi": "Số 929 đường 3, quận 7",
+   "SoDienThoai": "+84 639 730 991",
+   "Email": "binh.nguyen804@gmail.com"
+ },
+ {
+   "HoTen": "Vũ Thanh Linh",
+   "NgaySinh": "1996-01-27",
+   "PhongBan": "PB2",
+   "ChucVu": "Nhân viên bán hàng",
+   "NgayVaoLam": "2021-03-1",
+   "DiaChi": "Số 189 đường 25, quận 1",
+   "SoDienThoai": "+84 616 536 726",
+   "Email": "linh.vu203@gmail.com"
+ },
+ {
+   "HoTen": "Bùi Kim Hoa",
+   "NgaySinh": "1995-10-5",
+   "PhongBan": "PB2",
+   "ChucVu": "Nhân viên bán hàng",
+   "NgayVaoLam": "2021-03-1",
+   "DiaChi": "Số 926 đường 6, quận 2",
+   "SoDienThoai": "+84 524 185 715",
+   "Email": "hoa.bui876@gmail.com"
+ },
+ {
+   "HoTen": "Phan Thanh Hùng",
+   "NgaySinh": "1996-01-13",
+   "PhongBan": "PB2",
+   "ChucVu": "Nhân viên bán hàng",
+   "NgayVaoLam": "2021-03-1",
+   "DiaChi": "Số 675 đường 9, quận 2",
+   "SoDienThoai": "+84 722 584 806",
+   "Email": "hung.phan785@gmail.com"
+ },
+ {
+   "HoTen": "Phạm Anh Bình",
+   "NgaySinh": "1999-04-7",
+   "PhongBan": "PB2",
+   "ChucVu": "Nhân viên bán hàng",
+   "NgayVaoLam": "2021-03-1",
+   "DiaChi": "Số 502 đường 38, quận Tân Phú",
+   "SoDienThoai": "+84 805 581 861",
+   "Email": "binh.pham950@gmail.com"
+ },
+ {
+   "HoTen": "Bùi Hữu Hùng",
+   "NgaySinh": "1997-04-3",
+   "PhongBan": "PB2",
+   "ChucVu": "Nhân viên bán hàng",
+   "NgayVaoLam": "2021-03-1",
+   "DiaChi": "Số 992 đường 28, quận 2",
+   "SoDienThoai": "+84 478 594 865",
+   "Email": "hung.bui899@gmail.com"
+ },
+ {
+   "HoTen": "Vũ Hải Nam",
+   "NgaySinh": "1999-04-30",
+   "PhongBan": "PB2",
+   "ChucVu": "Nhân viên bán hàng",
+   "NgayVaoLam": "2021-03-1",
+   "DiaChi": "Số 999 đường 2, quận 3",
+   "SoDienThoai": "+84 335 448 688",
+   "Email": "nam.vu356@gmail.com"
+ },
+ {
+   "HoTen": "Hoàng Anh Linh",
+   "NgaySinh": "1999-12-16",
+   "PhongBan": "PB2",
+   "ChucVu": "Nhân viên bán hàng",
+   "NgayVaoLam": "2021-03-1",
+   "DiaChi": "Số 901 đường 46, quận 3",
+   "SoDienThoai": "+84 408 689 130",
+   "Email": "linh.hoang103@gmail.com"
+ },
+ {
+   "HoTen": "Hoàng Huy Trang",
+   "NgaySinh": "1997-09-7",
+   "PhongBan": "PB2",
+   "ChucVu": "Nhân viên bán hàng",
+   "NgayVaoLam": "2021-05-1",
+   "DiaChi": "Số 264 đường 26, quận 3",
+   "SoDienThoai": "+84 537 623 328",
+   "Email": "trang.hoang262@gmail.com"
+ },
+ {
+   "HoTen": "Trần Kim Nam",
+   "NgaySinh": "1997-08-5",
+   "PhongBan": "PB2",
+   "ChucVu": "Nhân viên bán hàng",
+   "NgayVaoLam": "2021-05-1",
+   "DiaChi": "Số 721 đường 48, quận Tân Phú",
+   "SoDienThoai": "+84 508 394 439",
+   "Email": "nam.tran862@gmail.com"
+ },
+ {
+   "HoTen": "Phạm Hải Lan",
+   "NgaySinh": "1995-03-31",
+   "PhongBan": "PB2",
+   "ChucVu": "Nhân viên bán hàng",
+   "NgayVaoLam": "2021-05-1",
+   "DiaChi": "Số 404 đường 13, quận Tân Phú",
+   "SoDienThoai": "+84 921 428 233",
+   "Email": "lan.pham452@gmail.com"
+ },
+ {
+   "HoTen": "Đỗ Anh Trang",
+   "NgaySinh": "1995-07-2",
+   "PhongBan": "PB2",
+   "ChucVu": "Nhân viên bán hàng",
+   "NgayVaoLam": "2021-05-1",
+   "DiaChi": "Số 326 đường 13, quận 3",
+   "SoDienThoai": "+84 252 531 231",
+   "Email": "trang.do766@gmail.com"
+ },
+ {
+   "HoTen": "Bùi Hải Hùng",
+   "NgaySinh": "1998-03-17",
+   "PhongBan": "PB2",
+   "ChucVu": "Nhân viên bán hàng",
+   "NgayVaoLam": "2021-05-15",
+   "DiaChi": "Số 593 đường 17, quận 3",
+   "SoDienThoai": "+84 961 116 152",
+   "Email": "hung.bui44@gmail.com"
+ },
+ {
+   "HoTen": "Phạm Thanh Tuấn",
+   "NgaySinh": "1997-04-21",
+   "PhongBan": "PB6",
+   "ChucVu": "Bảo vệ",
+   "NgayVaoLam": "2021-06-1",
+   "DiaChi": "Số 78 đường 35, quận 2",
+   "SoDienThoai": "+84 431 442 745",
+   "Email": "tuan.pham846@gmail.com"
+ },
+ {
+   "HoTen": "Đỗ Kim Hùng",
+   "NgaySinh": "1996-02-01",
+   "PhongBan": "PB7",
+   "ChucVu": "Bảo vệ",
+   "NgayVaoLam": "2021-06-1",
+   "DiaChi": "Số 456 đường 13, quận 7",
+   "SoDienThoai": "+84 788 995 134",
+   "Email": "hung.do749@gmail.com"
+ },
+ {
+   "HoTen": "Bùi Thanh Lan",
+   "NgaySinh": "1997-01-08",
+   "PhongBan": "PB8",
+   "ChucVu": "Nhân viên pháp lý",
+   "NgayVaoLam": "2021-07-1",
+   "DiaChi": "Số 794 đường 50, quận 7",
+   "SoDienThoai": "+84 850 474 312",
+   "Email": "lan.bui508@gmail.com"
+ },
+ {
+   "HoTen": "Vũ Hữu Nam",
+   "NgaySinh": "1998-11-16",
+   "PhongBan": "PB6",
+   "ChucVu": "Bảo vệ",
+   "NgayVaoLam": "2021-08-1",
+   "DiaChi": "Số 879 đường 40, quận Bình Thạnh",
+   "SoDienThoai": "+84 822 998 520",
+   "Email": "nam.vu394@gmail.com"
+ },
+ {
+   "HoTen": "Phan Văn Hưởng",
+   "NgaySinh": "1999-06-12",
+   "PhongBan": "PB2",
+   "ChucVu": "Nhân viên bán hàng",
+   "NgayVaoLam": "2022-03-1",
+   "DiaChi": "Số 717 đường 5, quận Tân Phú",
+   "SoDienThoai": "+84 478 439 501",
+   "Email": "huong.phan770@gmail.com"
+ },
+ {
+   "HoTen": "Nguyễn Thị Lan",
+   "NgaySinh": "2/15/1998",
+   "PhongBan": "PB2",
+   "ChucVu": "Nhân viên bán hàng",
+   "NgayVaoLam": "2022-03-1",
+   "DiaChi": "Số 123 đường 10, quận Bình Thạnh",
+   "SoDienThoai": "+84 913 456 789",
+   "Email": "lan.nguyen123@gmail.com"
+ },
+ {
+   "HoTen": "Đỗ Anh Hùng",
+   "NgaySinh": "1991-01-13",
+   "PhongBan": "PB3",
+   "ChucVu": "Nhân viên kế toán",
+   "NgayVaoLam": "2022-07-1",
+   "DiaChi": "Số 818 đường 5, quận 7",
+   "SoDienThoai": "+84 414 934 141",
+   "Email": "hung.do409@gmail.com"
+ },
+ {
+   "HoTen": "Đỗ Văn Trang",
+   "NgaySinh": "1999-12-14",
+   "PhongBan": "PB4",
+   "ChucVu": "Nhân viên kỹ thuật",
+   "NgayVaoLam": "2022-07-1",
+   "DiaChi": "Số 750 đường 29, quận 3",
+   "SoDienThoai": "+84 709 700 568",
+   "Email": "trang.do57@gmail.com"
+ },
+ {
+   "HoTen": "Nguyễn Hải Tuấn",
+   "NgaySinh": "1992-07-29",
+   "PhongBan": "PB8",
+   "ChucVu": "Nhân viên pháp lý",
+   "NgayVaoLam": "2023-04-1",
+   "DiaChi": "Số 491 đường 23, quận Tân Phú",
+   "SoDienThoai": "+84 339 734 175",
+   "Email": "tuan.nguyen588@gmail.com"
+ },
+ {
+   "HoTen": "Nguyễn Hữu Bình",
+   "NgaySinh": "1989-12-14",
+   "PhongBan": "PB6",
+   "ChucVu": "Bảo vệ",
+   "NgayVaoLam": "2023-05-1",
+   "DiaChi": "Số 609 đường 22, quận 2",
+   "SoDienThoai": "+84 488 843 159",
+   "Email": "binh.nguyen137@gmail.com"
+ }
+]
