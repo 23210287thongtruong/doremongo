@@ -1,29 +1,19 @@
-import { Schema, model } from "mongoose";
-import { INhanVien } from "./NhanVien";
-import { IHangHoa } from "./HangHoa";
+import { Schema, model } from 'mongoose';
 
-interface IKho {
-  KhoID: string;
+export interface IKho {
   TenKho: string;
   DiaChi: string;
   SoDienThoai: string;
-  QuanLykhoID: INhanVien;
-  HangHoa: IHangHoa[];
+  QuanLykhoID: Schema.Types.ObjectId;
 }
 
 const khoSchema = new Schema<IKho>({
-  TenKho: { type: String },
-  DiaChi: { type: String },
-  SoDienThoai: { type: String },
-  QuanLykhoID: { type: Schema.Types.ObjectId, ref: "NhanVien" },
-  HangHoa: [
-    {
-      type: Schema.Types.ObjectId,
-      ref: "HangHoa",
-    },
-  ],
+  TenKho: String,
+  DiaChi: String,
+  SoDienThoai: String,
+  QuanLykhoID: { type: Schema.Types.ObjectId, ref: 'NhanVien' },
 });
 
-const Kho = model<IKho>("Kho", khoSchema);
+const Kho = model<IKho>('Kho', khoSchema);
 
 export default Kho;

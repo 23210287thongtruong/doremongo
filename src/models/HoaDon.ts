@@ -1,38 +1,38 @@
-import { Schema, model } from "mongoose";
-import { IKhachHang } from "./KhachHang";
-import { IHangHoa } from "./HangHoa";
-import { INhanVien } from "./NhanVien";
+import { Schema, model } from 'mongoose';
 
-export interface IHangDaDat {
-  TenHangHoa: string;
-  Gia: number;
+interface IChiTietHoaDon {
+  HangHoaID: Schema.Types.ObjectId;
+  MaCT: Schema.Types.ObjectId;
   SoLuong: number;
-  HangHoa: IHangHoa;
+  ThanhTien?: number;
 }
 
-export interface IHoaDon {
+const chiTietHoaDonSchema = new Schema<IChiTietHoaDon>(
+  {
+    HangHoaID: { type: Schema.Types.ObjectId, ref: 'HangHoa' },
+    MaCT: { type: Schema.Types.ObjectId, ref: 'CTGiamGia' },
+    SoLuong: { type: Number, required: true },
+    ThanhTien: { type: Number, required: true, default: 0 },
+  },
+  { _id: false, timestamps: true }
+);
+
+interface IHoaDon {
   NgayLapHD: Date;
-  KhachHang: IKhachHang;
-  NhanVien: INhanVien;
-  TongTien: number;
-  HangDaDat: IHangDaDat[];
+  KhachHangID: Schema.Types.ObjectId;
+  NhanVienID: Schema.Types.ObjectId;
+  TongTien?: number;
+  ChiTiet?: [IChiTietHoaDon];
 }
 
 export const hoaDonSchema = new Schema<IHoaDon>({
   NgayLapHD: { type: Date, required: true },
-  KhachHang: { type: Schema.Types.ObjectId, ref: "KhachHang" },
-  NhanVien: { type: Schema.Types.ObjectId, ref: "NhanVien" },
-  TongTien: { type: Number, required: true },
-  HangDaDat: [
-    {
-      TenHangHoa: { type: String },
-      Gia: { type: Number },
-      SoLuong: { type: Number },
-      HangHoa: { type: Schema.Types.ObjectId, ref: "HangHoa" },
-    },
-  ],
+  KhachHangID: { type: Schema.Types.ObjectId, ref: 'KhachHang' },
+  NhanVienID: { type: Schema.Types.ObjectId, ref: 'NhanVien' },
+  TongTien: { type: Number, required: true, default: 0 },
+  ChiTiet: { type: [chiTietHoaDonSchema], default: [] },
 });
 
-const HoaDon = model<IHoaDon>("HoaDon", hoaDonSchema);
+const HoaDon = model<IHoaDon>('HoaDon', hoaDonSchema);
 
 export default HoaDon;
