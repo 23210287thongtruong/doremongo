@@ -17,6 +17,7 @@
   "description": "When you're ready, start your application by running: `docker compose up --build`.",
   "dependencies": {
     "mongoose": "^8.8.4",
+    "prettier": "^3.4.2",
     "ts-node": "^10.9.2"
   },
   "devDependencies": {
