@@ -7,12 +7,15 @@ export interface IKho {
   QuanLykhoID: Schema.Types.ObjectId;
 }
 
-const khoSchema = new Schema<IKho>({
-  TenKho: String,
-  DiaChi: String,
-  SoDienThoai: String,
-  QuanLykhoID: { type: Schema.Types.ObjectId, ref: 'NhanVien' },
-});
+const khoSchema = new Schema<IKho>(
+  {
+    TenKho: String,
+    DiaChi: String,
+    SoDienThoai: String,
+    QuanLykhoID: { type: Schema.Types.ObjectId, ref: 'NhanVien' },
+  },
+  { timestamps: true }
+);
 
 const Kho = model<IKho>('Kho', khoSchema);
 

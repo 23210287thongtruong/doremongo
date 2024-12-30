@@ -20,7 +20,7 @@ interface IThongTinLuong {
 
 const thongTinLuongSchema = new Schema<IThongTinLuong>(
   {
-    NgayHieuLuc: { type: Date, required: true, unique: true },
+    NgayHieuLuc: { type: Date, required: true },
     TruongNhom: { type: Boolean, default: false },
     LuongCung: { type: Number, default: 0 },
     SoNguoiPhuThuoc: { type: Number, default: 0 },
@@ -37,19 +37,29 @@ export interface INhanVien {
   DiaChi: string;
   SoDienThoai: string;
   Email: string;
-  ThongTinLuong?: IThongTinLuong[];
+  ThongTinLuong: IThongTinLuong[];
 }
 
-export const nhanVienSchema = new Schema<INhanVien>({
-  HoTen: String,
-  NgaySinh: Date,
-  PhongBan: { type: String, enum: Object.values(PhongBan) },
-  ChucVu: String,
-  NgayVaoLam: Date,
-  DiaChi: String,
-  SoDienThoai: String,
-  Email: String,
-  ThongTinLuong: { type: [thongTinLuongSchema], default: [] },
-});
+export const nhanVienSchema = new Schema<INhanVien>(
+  {
+    HoTen: String,
+    NgaySinh: Date,
+    PhongBan: { type: String, enum: Object.values(PhongBan) },
+    ChucVu: String,
+    NgayVaoLam: Date,
+    DiaChi: String,
+    SoDienThoai: String,
+    Email: String,
+    ThongTinLuong: { type: [thongTinLuongSchema], default: [] },
+  },
+  {
+    timestamps: true,
+  }
+);
+
+nhanVienSchema.index(
+  { 'ThongTinLuong.NgayHieuLuc': 1, _id: 1 },
+  { unique: true }
+);
 
 export default model<INhanVien>('NhanVien', nhanVienSchema);

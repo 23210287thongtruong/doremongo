@@ -16,24 +16,28 @@ export interface ILuongThang {
   LuongThucNhan: number;
 }
 
-const luongThangSchema = new Schema<ILuongThang>({
-  KyLuong: { type: Schema.Types.ObjectId, ref: 'KyLuongNV', required: true },
-  NhanVienID: {
-    type: Schema.Types.ObjectId,
-    ref: 'NhanVien',
-    required: true,
+const luongThangSchema = new Schema<ILuongThang>(
+  {
+    KyLuong: { type: Schema.Types.ObjectId, ref: 'KyLuongNV', required: true },
+    NhanVienID: {
+      type: Schema.Types.ObjectId,
+      ref: 'NhanVien',
+      required: true,
+      index: true,
+    },
+    ThuongThamNien: { type: Number, default: 0 },
+    PCSinhNhat: { type: Number, default: 0 },
+    PCChucVu: { type: Number, default: 0 },
+    NgayCong: { type: Number, required: true, min: 0 },
+    ThuNhapChiuThue: { type: Number, default: 0 },
+    ThuNhapTinhThue: { type: Number, default: 0 },
+    ThueTNCN: { type: Number, default: 0 },
+    BHXH: { type: Number, default: 0 },
+    HoaHong: { type: Number, default: 0 },
+    Phat: { type: Number, default: 0 },
+    LuongThucNhan: { type: Number, required: true, default: 0 },
   },
-  ThuongThamNien: { type: Number, default: 0 },
-  PCSinhNhat: { type: Number, default: 0 },
-  PCChucVu: { type: Number, default: 0 },
-  NgayCong: Number,
-  ThuNhapChiuThue: Number,
-  ThuNhapTinhThue: Number,
-  ThueTNCN: Number,
-  BHXH: Number,
-  HoaHong: { type: Number, default: 0 },
-  Phat: { type: Number, default: 0 },
-  LuongThucNhan: Number,
-});
+  { timestamps: true }
+);
 
 export default model('LuongThang', luongThangSchema);
