@@ -4,7 +4,7 @@ interface IChiTietHoaDon {
   HangHoaID: Schema.Types.ObjectId;
   MaCT: Schema.Types.ObjectId;
   SoLuong: number;
-  ThanhTien?: number;
+  ThanhTien: number;
 }
 
 const chiTietHoaDonSchema = new Schema<IChiTietHoaDon>(
@@ -17,22 +17,37 @@ const chiTietHoaDonSchema = new Schema<IChiTietHoaDon>(
   { _id: false, timestamps: true }
 );
 
+export const chiTietHoaDon = model<IChiTietHoaDon>(
+  'ChiTietHoaDon',
+  chiTietHoaDonSchema
+);
+
 interface IHoaDon {
   NgayLapHD: Date;
   KhachHangID: Schema.Types.ObjectId;
   NhanVienID: Schema.Types.ObjectId;
-  TongTien?: number;
-  ChiTiet?: [IChiTietHoaDon];
+  TongTien: number;
+  ChiTiet: [IChiTietHoaDon];
 }
 
-export const hoaDonSchema = new Schema<IHoaDon>({
-  NgayLapHD: { type: Date, required: true },
-  KhachHangID: { type: Schema.Types.ObjectId, ref: 'KhachHang' },
-  NhanVienID: { type: Schema.Types.ObjectId, ref: 'NhanVien' },
-  TongTien: { type: Number, required: true, default: 0 },
-  ChiTiet: { type: [chiTietHoaDonSchema], default: [] },
+const hoaDonSchema = new Schema<IHoaDon>(
+  {
+    NgayLapHD: { type: Date, required: true },
+    KhachHangID: { type: Schema.Types.ObjectId, ref: 'KhachHang' },
+    NhanVienID: { type: Schema.Types.ObjectId, ref: 'NhanVien' },
+    TongTien: { type: Number, required: true, default: 0 },
+    ChiTiet: { type: [chiTietHoaDonSchema], default: [] },
+  },
+  { timestamps: true }
+);
+
+hoaDonSchema.index({ 'ChiTiet.HangHoaID': 1, _id: 1 }, { unique: true });
+
+hoaDonSchema.pre('save', function () {
+  this.TongTien = this.ChiTiet.reduce(
+    (sum, item) => sum + (item.ThanhTien || 0),
+    0
+  );
 });
 
-const HoaDon = model<IHoaDon>('HoaDon', hoaDonSchema);
-
-export default HoaDon;
+export const HoaDon = model<IHoaDon>('HoaDon', hoaDonSchema);

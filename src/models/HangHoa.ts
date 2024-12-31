@@ -1,11 +1,11 @@
 import { Schema, model } from 'mongoose';
 
 export enum LoaiHangHoaEnum {
-  DT = 'Điện thoại',
-  LT = 'Laptop',
-  DH = 'Đồng hồ',
-  MTB = 'Máy tính bảng',
-  TN = 'Tai nghe',
+  DT = 'DT',
+  LT = 'LT',
+  DH = 'DH',
+  MTB = 'MTB',
+  TN = 'TN',
 }
 
 export interface IHangHoa {
@@ -19,17 +19,24 @@ export interface IHangHoa {
   LoaiHangHoa: LoaiHangHoaEnum;
 }
 
-export const hangHoaSchema = new Schema<IHangHoa>({
-  TenHangHoa: { type: String, required: true },
-  NgayRaMat: { type: Date, required: true },
-  NhaSanXuat: { type: String, required: true },
-  MucThueGTGT: { type: Number, required: true },
-  Gia: { type: Number, required: true },
-  SoLuongTonKho: { type: Number, required: true },
-  KhoID: { type: Schema.Types.ObjectId, ref: 'Kho' },
-  LoaiHangHoa: { type: String, enum: Object.values(LoaiHangHoaEnum) },
-});
+export const hangHoaSchema = new Schema<IHangHoa>(
+  {
+    TenHangHoa: { type: String, required: true, index: true },
+    NgayRaMat: { type: Date, required: true },
+    NhaSanXuat: { type: String, required: true },
+    MucThueGTGT: { type: Number, required: true, min: 0, max: 100 },
+    Gia: { type: Number, required: true, min: 0 },
+    SoLuongTonKho: { type: Number, required: true, min: 0 },
+    KhoID: { type: Schema.Types.ObjectId, ref: 'Kho', index: true },
+    LoaiHangHoa: {
+      type: String,
+      enum: Object.values(LoaiHangHoaEnum),
+      required: true,
+    },
+  },
+  { timestamps: true }
+);
 
-const HangHoaModel = model<IHangHoa>('HangHoa', hangHoaSchema);
+const HangHoa = model<IHangHoa>('HangHoa', hangHoaSchema);
 
-export default HangHoaModel;
+export default HangHoa;
